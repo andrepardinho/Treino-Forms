@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tela de Cadastro</title>
+</head>
+
+<body>
+    <h1>Inscreva-se</h1>
+    <div class="all">
+    <form action="Pags/register.html" method="post">
+
+    <label>
+        Nome<br>
+        <input type="text" name="nome" required>
+    </label>
+
+    <label>
+        Email<br>
+        <input type="email" name="email" required>
+    </label>
+
+    <label>
+        Senha<br>
+        <input type="password" name="password" required>
+    </label>
+
+    <label>
+        CEP<br>
+        <input type="text" name="cep" pattern="\d{5}-\d{3}" placeholder="12345-678" title="Digite um CEP no formato 12345-678" required>
+    </label>
+
+    <label>
+        Telefone<br>
+        <input type="tel" name="telefone"  placeholder="(DD) 12345-6789" required>
+    </label>
+
+    <label>
+        Gênero<br>
+        <select name="genero">
+            <option selected disabled>Selecione</option>
+            <option>Mulher cisgênero</option>
+            <option>Mulher transgênero</option>
+            <option>Homem cisgênero</option>
+            <option>Homem transgênero</option>
+            <option>Masculine</option>
+            <option>Gênero não-binário</option>
+            <option>Gênero neutro</option>
+            <option>Agênero</option>
+            <option>Bigênero</option>
+            <option>Poligênero</option>
+            <option>Outro</option>
+        </select>
+    </label>
+
+    <div class="final">
+    <label class="termos">
+        <input type="checkbox" required>
+        Declaro que li e aceitos os <a href="Pags/termo.html" target="_blank" class="termoslink">termos de uso</a>.
+    </label>
+
+    <button type="submit">Cadastrar</button>
+    </div>
+    </div>
+
+</body>
+
+</html>

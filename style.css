@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEE;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #518dfc;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.all {
+    width: 400px;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow:3px 3px 3px #ccc;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.final {
+    text-align: center;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=tel], select{
+   padding: 10px;
+   width: 100%;
+   font-size: 15px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   margin-top: 5px;
+}
+
+
+input:focus, select:focus {
+    border: 2px solid #518dfc;
+    outline: none;
+}
+
+
+button {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #518dfc;
+}
+
+button:hover {
+    color: #518dfc;
+    background-color: #FFF;
+    border: 1px solid #518dfc;
+}
+
+.termos {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.termoslink {
+    color: #000;
+}
